@@ -1,0 +1,7 @@
+** sch_path: /home/hugodg/projects/inverter-sky130/xschem/inverter-sky130.sch
+.subckt inverter-sky130 in vd gnd out
+*.PININFO in:I vd:B gnd:B out:O
+XN0 out in gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XP0 out in vd vd sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+.ends
+.end

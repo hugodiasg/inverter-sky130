@@ -1,0 +1,8 @@
+| units: 500000 tech: sky130A format: MIT
+x in vd out vd s=34800,1316 d=34800,1316 l=30 w=600 x=76 y=1399 sky130_fd_pr__pfet_01v8
+x in gnd out gnd s=11600,516 d=11600,516 l=30 w=200 x=76 y=690 sky130_fd_pr__nfet_01v8
+R out 2788
+R in 2147
+C vd0 2.2
+R vd 14112
+R gnd 10338

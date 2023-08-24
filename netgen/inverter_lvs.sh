@@ -1,0 +1,1 @@
+netgen -batch lvs "../mag/inverter-sky130.spice inverter-sky130" "../xschem/simulation/inverter-sky130.spice inverter-sky130" /home/hugodg/sky130_workspace/open_pdks/sky130/sky130A/libs.tech/netgen/sky130A_setup.tcl comp.out
