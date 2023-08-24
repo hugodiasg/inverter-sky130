@@ -18,7 +18,9 @@ C {devices/lab_pin.sym} -200 -90 0 0 {name=p1 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} 40 -90 0 0 {name=p2 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} 200 -90 0 1 {name=p3 sig_type=std_logic lab=out}
 C {devices/code_shown.sym} 360 -220 0 0 {name=s1 only_toplevel=false value="
-.control 
+.control
+set color0=white
+set color1=black
 save all
 dc vin 0 1.8 0.01
 plot in out
